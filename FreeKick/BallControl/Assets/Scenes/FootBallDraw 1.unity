@@ -632,6 +632,10 @@ PrefabInstance:
       propertyPath: startPoint
       value: 
       objectReference: {fileID: 103505326}
+    - target: {fileID: 7541043762699625060, guid: 03672c3e0bda5f442b2a51d36dbee4d0, type: 3}
+      propertyPath: GroundLayer.m_Bits
+      value: 2048
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 03672c3e0bda5f442b2a51d36dbee4d0, type: 3}
 --- !u!1 &963194225
@@ -1197,7 +1201,7 @@ GameObject:
   - component: {fileID: 1358514180}
   - component: {fileID: 1358514179}
   - component: {fileID: 1358514178}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Ground
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
