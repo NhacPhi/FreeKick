@@ -629,6 +629,10 @@ PrefabInstance:
       value: GoalKeeper
       objectReference: {fileID: 0}
     - target: {fileID: 7541043762699625060, guid: 03672c3e0bda5f442b2a51d36dbee4d0, type: 3}
+      propertyPath: ballTarget
+      value: 
+      objectReference: {fileID: 2123389973}
+    - target: {fileID: 7541043762699625060, guid: 03672c3e0bda5f442b2a51d36dbee4d0, type: 3}
       propertyPath: startPoint
       value: 
       objectReference: {fileID: 103505326}
@@ -1662,6 +1666,36 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2097995818}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &2123389972
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2123389973}
+  m_Layer: 0
+  m_Name: BallTarget
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2123389973
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2123389972}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.288669, y: -1.86, z: 11.92}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &667417850860778194
 PrefabInstance:
   m_ObjectHideFlags: 0

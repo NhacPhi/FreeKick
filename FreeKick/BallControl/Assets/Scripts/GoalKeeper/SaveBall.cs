@@ -137,10 +137,10 @@ public class SaveBall : MonoBehaviour
     public void ResetState()
     {
         // random position
-        transform.position = startPoint.position + new Vector3(0, 0, Random.Range(-3, 3));
+        transform.position = startPoint.position + new Vector3(Random.Range(-3, 3), 0, 0);
         if (Random.Range(0, 100) > 50)
         {
-            transform.position = new Vector3(transform.position.x, transform.position.y, -transform.position.z);
+            transform.position = new Vector3(-transform.position.x, transform.position.y, transform.position.z);
         }    
 
         transform.rotation = Quaternion.identity;
